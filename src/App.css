@@ -1,0 +1,50 @@
+.main-light {
+	margin-left: 110px;
+	color: var(--title-color);
+}
+.main-dark {
+	margin-left: 110px;
+	background-color: rgba(0, 0, 0, 0.768);
+	color: white;
+}
+
+@keyframes gelatine {
+	from,
+	to {
+		transform: scale(1, 1);
+	}
+	25% {
+		transform: scale(0.9, 1.1);
+	}
+	50% {
+		transform: scale(1.1, 0.9);
+	}
+	75% {
+		transform: scale(0.95, 1.05);
+	}
+}
+
+.button-theme {
+	z-index: 1;
+	font-size: 2.5rem;
+	background: none;
+	position: absolute;
+	top: 1.25rem;
+	right: 1.875rem;
+	transition: 0.5s;
+	color: '#00000';
+}
+
+.button-theme:hover {
+	animation: gelatine 0.9s;
+}
+
+@media screen and (max-width: 1024px) {
+	.main {
+		margin-left: 0;
+	}
+	.main-light,
+	.main-dark {
+		margin: 0px;
+	}
+}
