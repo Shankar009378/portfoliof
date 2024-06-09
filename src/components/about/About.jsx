@@ -12,7 +12,7 @@ const About = () => {
 						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent maurisLorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris..
 						</p>
 						<div className='about__download'>
-							<a href='https://github.com/olimpiu98/portfolio-react/raw/master/src/public/Olimpiu_Ticudean_Resume.pdf' className='btn '>
+							<a href='https://github.com' className='btn '>
 								Download CV
 							</a>
 						</div>
