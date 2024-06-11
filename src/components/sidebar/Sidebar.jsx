@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import Logo from "../../public/assets/logo.png";
+import Logo from "../../../public/assets/logo.png";
 import {AiOutlineMenu, AiOutlineClose} from "react-icons/ai";
 import { IoHome } from "react-icons/io5";
 import { SiAboutdotme } from "react-icons/si";

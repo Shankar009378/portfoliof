@@ -1,7 +1,7 @@
-import Project1 from "../public/assets/seo.png";
-import Project2 from "../public/assets/shopify.png";
-import Project3 from "../public/assets/design.png";
-import Project4 from "../public/assets/congility.png";
+import Project1 from "../../public/assets/seo.png";
+import Project2 from "../../public/assets/shopify.png";
+import Project3 from "../../public/assets/design.png";
+import Project4 from "../../public/assets/congility.png";
 
 const portfoliodata = [
 	{

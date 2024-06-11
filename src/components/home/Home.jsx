@@ -1,5 +1,5 @@
 import React from "react";
-import avatar from "../../public/avatar/avatar.png";
+import avatar from "../../../public/avatar/avatar.png";
 import HeaderSocials from "./HeaderSocials";
 import ScrollDown from "./ScrollDown";
 import "./home.css";
