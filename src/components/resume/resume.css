@@ -1,4 +1,4 @@
-.resume__container {
+/* .resume__container {
 	grid-template-columns: repeat(2, 1fr);
 	column-gap: 1.875rem;
 }
@@ -84,4 +84,38 @@
 
 .timeline__text {
 	font-size: var(--small-font-size);
+} */
+
+.skills .items {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 800px;
+  margin: auto;
+  /* background-color: yellow; */
+}
+
+.item_title{
+	color: black;
+	margin-top: 1rem;
+}
+
+.skills .items .item {
+  width: calc(33.33%);
+  background-color: hsl(0, 0%, 90%);
+  margin: 20px;
+  text-align: center;
+  padding: 20px;
+  border-radius: 10px;
+  border: 1px solid #ff4c60;
+  box-shadow: var(--box-shadow);
+}
+
+.skills .items .item img {
+  width: 70px;
+}
+
+.text{
+	margin-top: 3.875rem;
 }

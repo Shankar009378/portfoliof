@@ -1,107 +1,59 @@
 const information = [
-	{
-		id: 1,
-		category: "skills",
-		name: "Skills Name",
-		description: "Learned the basics of HTML, CSS, and JavaScript.",
-		level: "Beginner",
-		year: "July 3, 2022",
-	},
-	{
-		id: 2,
-		category: "skills",
-		name: "Skills Name",
-		description: "Learned the basics of HTML, CSS, and JavaScript.",
-		level: "Beginner",
-		year: "June 14, 2022",
-	},
-	{
-		id: 3,
-		category: "skills",
-		name: "Skills Name",
-		description: "Learned the basics of HTML, CSS, and JavaScript.",
-		level: "Beginner",
-		year: "May 15, 2022",
-	},
-	{
-		id: 4,
-		category: "skills",
-		name: "Skills Name",
-		description: "Learned the basics of HTML, CSS, and JavaScript.",
-		level: "Beginner",
-		year: "April 27, 2022",
-	},
-	{
-		id: 5,
-		category: "skills",
-		name: "Skills Name",
-		description: "Learned the basics of HTML, CSS, and JavaScript.",
-		level: "Beginner",
-		year: "June 1, 2022",
-	},
-	{
-		id: 6,
-		category: "skills",
-		name: "Skills Name",
-		description: "Learned the basics of HTML, CSS, and JavaScript.",
-		level: "Beginner",
-		year: "June 12, 2022",
-	},
-	{
-		id: 7,
-		category: "skills",
-		name: "Skills Name",
-		description: "Learned the basics of HTML, CSS, and JavaScript.",
-		level: "Beginner",
-		year: "May 16, 2022",
-	},
-
-	// Experiences
-	{
-		id: 995,
-		category: "experience",
-		role: "Technical Role",
-		name: "Company Name",
-		location: "Remote",
-		description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam.",
-		year: "July 20, 2022 to July 20, 2023",
-	},
-	{
-		id: 996,
-		category: "experience",
-		role: "Technical Role",
-		name: "Company Name",
-		location: "Remote",
-		description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam.",
-		year: "July 20, 2022 to July 20, 2023",
-	},
-	{
-		id: 997,
-		category: "experience",
-		role: "Technical Role",
-		name: "Company Name",
-		location: "Remote",
-		description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam.",
-		year: "July 20, 2022 to July 20, 2023",
-	},
-	{
-		id: 998,
-		category: "experience",
-		role: "Technical Role",
-		name: "Company Name",
-		location: "Remote",
-		description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam.",
-		year: "July 20, 2022 to July 20, 2023",
-	},
-	{
-		id: 999,
-		category: "experience",
-		role: "Technical Role",
-		name: "Company Name",
-		location: "Remote",
-		description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam.",
-		year: "July 20, 2022 to July 20, 2023",
-	},
-];
+		{
+			"id": 1,
+			"title": "HTML5",
+			"imageSrc": "/src/public/assets/html.png"
+		},
+		{
+			"id": 2,
+			"title": "CSS/SCSS",
+			"imageSrc": "/src/public/assets/css.png"
+		},
+		{
+			"id": 3,
+			"title": "JavaScript",
+			"imageSrc": "/src/public/assets/javascript.png"
+		},
+		{
+			"id": 4,
+			"title": "React",
+			"imageSrc": "/src/public/assets/react.png"
+		},
+		{
+			"id": 5,
+			"title": "Node.js",
+			"imageSrc": "/src/public/assets/node.png"
+		},
+		{
+			"id": 6,
+			"title": "Firebase",
+			"imageSrc": "/src/public/assets/firebase.png"
+		},
+		{
+			"id": 7,
+			"title": "Bootstrap",
+			"imageSrc": "/src/public/assets/bootstrap.png"
+		},
+		{
+			"id": 8,
+			"title": "Wordpress",
+			"imageSrc": "/src/public/assets/wordpress.png"
+		},
+		{
+			"id": 9,
+			"title": "Java",
+			"imageSrc": "/src/public/assets/java.png"
+		},
+		{
+			"id": 10,
+			"title": "Flutter",
+			"imageSrc": "/src/public/assets/flutter.png"
+		},
+		{
+			"id": 11,
+			"title": "Figma",
+			"imageSrc": "/src/public/assets/figma.png"
+		}
+	]
 
 export default information;

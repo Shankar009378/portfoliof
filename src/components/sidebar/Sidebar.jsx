@@ -40,7 +40,7 @@ const Sidebar = () => {
 							</li>
 
 							<li className='nav__item'>
-								<a href='#skills&experiences' className='nav__link'>
+								<a href='#skills' className='nav__link'>
 									<FaTools />
 								</a>
 							</li>

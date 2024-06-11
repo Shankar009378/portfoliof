@@ -15,6 +15,7 @@
 }
 
 .work__container {
+	display: grid;
 	grid-template-columns: repeat(3, 1fr);
 	gap: 1.875rem;
 }
@@ -49,6 +50,7 @@
 	padding: 0.19rem 0.735rem;
 	transition: 0.3s;
 	opacity: 0;
+	margin-bottom: 0.5rem;
 }
 
 .work__thumbnail {

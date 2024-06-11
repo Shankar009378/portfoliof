@@ -18,17 +18,17 @@ const Portfolio = () => {
 			<h2 className='section__title'>Projects</h2>
 
 			<div className='work__filters'>
-				<span className='work__item' onClick={() => filterItem("html")}>
-					HTML
+				<span className='work__item' onClick={() => filterItem("wordpress")}>
+					WordPress
 				</span>
-				<span className='work__item' onClick={() => filterItem("next")}>
-					Next
+				<span className='work__item' onClick={() => filterItem("shopify")}>
+					Shopify
 				</span>
-				<span className='work__item' onClick={() => filterItem("mern")}>
-					MERN
+				<span className='work__item' onClick={() => filterItem("figma")}>
+					Figma
 				</span>
 				<span className='work__item' onClick={() => filterItem("react")}>
-					React
+					MERN
 				</span>
 				<span className='work__item' onClick={() => filterItem("flutter")}>
 					Flutter
@@ -45,12 +45,14 @@ const Portfolio = () => {
 							</div>
 							<span className='work__category'>{category}</span>
 							<h3 className='work__title'>{title}</h3>
-							<a href={demo} className='work__button' target="_blank" rel="noopener noreferrer">
-								<GoGlobe />
-							</a>
-							<a href={github} className='work__button2' target="_blank" rel="noopener noreferrer">
-								<GoLogoGithub />
-							</a>
+							<div className='work__buttons'>
+								<a href={demo} className='work__button' target="_blank" rel="noopener noreferrer">
+									<GoGlobe />
+								</a>
+								<a href={github} className='work__button2' target="_blank" rel="noopener noreferrer">
+									<GoLogoGithub />
+								</a>
+							</div>
 						</div>
 					);
 				})}
