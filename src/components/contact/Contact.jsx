@@ -2,6 +2,12 @@ import React from "react";
 import "./contact.css";
 
 const Contact = () => {
+	const whatsappNumber = "+447511943208";
+
+	const openWhatsApp = () => {
+		window.open(`https://wa.me/${whatsappNumber}`, "_blank");
+	  };
+
 	return (
 		<section className='contact container section' id='contact'>
 			<h2 className='section__title'>Get in Touch</h2>
@@ -10,7 +16,7 @@ const Contact = () => {
 					<h3 className='contact__title'>Let's talk about everything!</h3>
 					<p className='contact__details'>Send me a quick email using this form.</p>
 				</div>
-				<form action='' className='contact__form'>
+				<form action='' className='contact__form' onSubmit={openWhatsApp}>
 					<div className='contact__form-group'>
 						<div className='contact__form-div'>
 							<input type='text' className='contact__form-input' placeholder='Insert your name' />
@@ -34,7 +40,7 @@ const Contact = () => {
 							placeholder='Write your message here!'
 						></textarea>
 					</div>
-					<button className='btn'>Send message</button>
+					<button type="submit" className='btn'>Send message</button>
 				</form>
 			</div>
 		</section>
