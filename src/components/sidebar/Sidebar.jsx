@@ -51,11 +51,11 @@ const Sidebar = () => {
 								</a>
 							</li>
 
-							<li className='nav__item'>
+							{/* <li className='nav__item'>
 								<a href='#contact' className='nav__link'>
 									<FaPhoneAlt />
 								</a>
-							</li>
+							</li> */}
 						</ul>
 					</div>
 				</nav>

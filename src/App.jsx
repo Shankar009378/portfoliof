@@ -3,7 +3,7 @@ import Sidebar from "./components/sidebar/Sidebar";
 import Home from "./components/home/Home";
 import About from "./components/about/About";
 import Resume from "./components/resume/Resume";
-import Contact from "./components/contact/Contact";
+// import Contact from "./components/contact/Contact";
 import Portfolio from "./components/portfolio/Portfolio";
 import { useState } from "react";
 import { IoMoon } from "react-icons/io5";
@@ -28,7 +28,7 @@ function App() {
 				<About />
 				<Resume />
 				<Portfolio />
-				<Contact />
+				{/* <Contact /> */}
 			</main>
 		</div>
 	);
