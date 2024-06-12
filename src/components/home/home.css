@@ -45,10 +45,11 @@
 }
 
 .scroll__down {
-	position: absolute;
+	/* position: absolute; */
 	bottom: 2.5rem;
 	left: 0;
 	width: 100%;
+	color: #ff4c60;
 }
 
 .home__scroll-name {
